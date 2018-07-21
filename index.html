@@ -4,11 +4,105 @@
 <head>
     <meta charset="utf-8" />
     <title>About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--My file just to color and use typography in my webpage-->
 </head>
 
 <body>
+    <header>
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Added a container class to restrict the nav bar to match the content alignment-->
+            <a class="navbar-brand" href="#">Tin Dang</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Porfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" id="maincontent">
+
+        <div class="row">
+            <h1>About Me</h1>
+            <!--Only 1 content in my row-->
+        </div>
+        <hr>
+        <!--row 1-->
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <img width="250px" src="assets/images/profile.jpg" alt="Bio-Photo">
+            </div>
+            <!--img goes here-->
+            <!--Should take space for 1/4 the grid-->
+
+            <div class="col-md-9">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae rem esse illum eius! Doloremque incidunt
+                    sequi porro doloribus accusamus autem tempore vero, nesciunt explicabo voluptates. Molestias facilis
+                    nostrum fugiat quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem suscipit dolorum
+                    repudiandae illum tempore culpa labore quod, deleniti in explicabo quibusdam eaque adipisci quisquam
+                    quam sit est tempora accusamus nam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+                    consequatur eveniet exercitationem excepturi debitis corporis nobis facere repellendus, ullam voluptatem
+                    repellat, ducimus corrupti nulla. Omnis error doloribus dolorem exercitationem sequi.
+                </p>
+                <!-- First part of the paragraph text-->
+
+            </div>
+            <!--Take the rest of the space of the 12 grid-->
+        </div>
+        <!--row 2-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores error beatae sint odit libero! Similique
+                    vitae autem cumque voluptatum laboriosam. Veniam blanditiis assumenda perspiciatis numquam reiciendis
+                    sunt ad cum corrupti?
+                </p>
+                <!--Second Paragraph-->
+            </div>
+            <!--Takes a full row-->
+
+
+        </div>
+        <!--row 3-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi adipisci dolor laborum ad exercitationem unde
+                    aliquam numquam asperiores, ratione magni nostrum nesciunt facilis incidunt rerum cupiditate assumenda
+                    quia. Qui, perspiciatis?
+                </p>
+                <!--Last Paragraph-->
+            </div>
+            <!--Also takes a full row-->
+
+
+        </div>
+        <!--row 4-->
+    </div>
+    <!--container to hold all my rows-->
+
+    <footer>
+        <p>Copyright &copy; 2018</p>
+    </footer>
 </body>
 
 </html>
