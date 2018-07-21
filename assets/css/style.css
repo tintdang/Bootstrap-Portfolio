@@ -10,8 +10,6 @@ body {
 h1 {
     font-size: 2em;
     font-weight: bold;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
     padding: 20px;
     color: #4aaaa5;
 
@@ -26,17 +24,20 @@ p {
 #maincontent {
     margin-top: 20px;
     height: auto !important;
-    min-height: 100%;
-    padding: 20px;
-    background-color: #fff;
+    min-height: calc(100vh - 130px);
+    padding: 0px;
+    margin-bottom: -15px; /*to fit on screen and push footer*/
 }
 
-.push {
-    height: 105px;
+.main-section {
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
 
 footer {
-    padding-top: 30px;
+    padding: 20px;
     background: #666666;
     width: 100%;
     text-align: center;
