@@ -31,15 +31,17 @@ p {
     background-color: #fff;
 }
 
-footer,
 .push {
     height: 105px;
 }
 
 footer {
-    padding: 20px;
-    background: yellow;
+    padding-top: 30px;
+    background: #666666;
     width: 100%;
     text-align: center;
+    border-top: 5px solid #4aaaa5;
+    color: white;
+
 }
 /* moves the nav-bar to the right */
